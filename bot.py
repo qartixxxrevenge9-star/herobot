@@ -238,4 +238,4 @@ async def del_item(ctx, *, name: str):
 keep_alive()  # Запускает веб-сервер в отдельном потоке
 import os
 # ... (весь твой код) ...
-bot.run(os.getenv('')) # Бот будет брать токен из настроек хостинга
+bot.run(os.getenv('BOT_TOKEN')) # Бот будет брать токен из настроек хостинга
